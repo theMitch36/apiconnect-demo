@@ -1,0 +1,76 @@
+type: bluemix
+server:
+  displayName: US South
+  name: us-south
+  host: us.apiconnect.ibmcloud.com
+org:
+  id: 5a84bce50cf2b5ba78f447f3
+  name: devmakos36gmailcom-dev
+  displayName: devmakos36@gmail.com (dev)
+  orgType: apiProvider
+  status: active
+  advPortalOverride: true
+  extUaaAuthenticated: false
+  requiresSSLClientCertCheck: false
+  dormant: false
+  url: 'https://us.apiconnect.ibmcloud.com/v1/orgs/5a84bce50cf2b5ba78f447f3'
+  externalOrgId: bf61e78e-fbc0-486d-a505-b1b5730748fc
+  externalInviteOverride: 'https://console.bluemix.net/apis/catalog/invitation?env_id=ibm:yp:us-south'
+  externalSpaceId: bf61e78e-fbc0-486d-a505-b1b5730748fc
+  externalNativeOrgId: c212ce9e-e618-495e-8a53-f64fab532594
+  bluemix:
+    inviteUri: 'https://console.bluemix.net/apis/catalog/invitation?env_id=ibm:yp:us-south'
+    organization: c212ce9e-e618-495e-8a53-f64fab532594
+    space: bf61e78e-fbc0-486d-a505-b1b5730748fc
+catalog:
+  none: true
+space:
+  none: true
+app:
+  metadata:
+    guid: ae629d30-6cb3-44cd-a0e8-98d137a3464a
+    url: /v2/apps/ae629d30-6cb3-44cd-a0e8-98d137a3464a
+    created_at: '2018-02-15T16:21:37Z'
+    updated_at: '2018-02-15T18:52:14Z'
+  entity:
+    name: apiconnect-demo
+    production: false
+    space_guid: bf61e78e-fbc0-486d-a505-b1b5730748fc
+    stack_guid: ac91d31a-86a3-453b-babf-8d49c9d763fc
+    buildpack: null
+    detected_buildpack: 'SDK for Node.js(TM) (ibm-node.js-6.12.3, buildpack-v3.18-20180206-1137)'
+    detected_buildpack_guid: 34629045-8b4a-4767-a359-c453b28bf55c
+    environment_json: {}
+    memory: 64
+    instances: 1
+    disk_quota: 1024
+    state: STARTED
+    version: fa60d1e2-941b-4c3d-bb4f-9bd8df2ceb15
+    command: null
+    console: false
+    debug: null
+    staging_task_id: d77e90d0-1caf-4810-858e-94488376e21d
+    package_state: STAGED
+    health_check_type: port
+    health_check_timeout: null
+    health_check_http_endpoint: null
+    staging_failed_reason: null
+    staging_failed_description: null
+    diego: true
+    docker_image: null
+    docker_credentials:
+      username: null
+      password: null
+    package_updated_at: '2018-02-15T16:21:50Z'
+    detected_start_command: ./vendor/initial_startup.rb
+    enable_ssh: true
+    ports:
+      - 8080
+    space_url: /v2/spaces/bf61e78e-fbc0-486d-a505-b1b5730748fc
+    stack_url: /v2/stacks/ac91d31a-86a3-453b-babf-8d49c9d763fc
+    routes_url: /v2/apps/ae629d30-6cb3-44cd-a0e8-98d137a3464a/routes
+    events_url: /v2/apps/ae629d30-6cb3-44cd-a0e8-98d137a3464a/events
+    service_bindings_url: /v2/apps/ae629d30-6cb3-44cd-a0e8-98d137a3464a/service_bindings
+    route_mappings_url: /v2/apps/ae629d30-6cb3-44cd-a0e8-98d137a3464a/route_mappings
+id: 0f6564c7-6838-42d2-b01a-0f859364373a
+target: 1.0.0

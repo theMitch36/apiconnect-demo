@@ -1,0 +1,21 @@
+{
+  "db": {
+    "name": "db",
+    "localStorage": "",
+    "file": "myData.json",
+    "connector": "memory"
+  },
+  "cloudantdb": {
+    "name": "cloudantdb",
+    "connector": "memory"
+  },
+  "cloudant-db": {
+    "url": "https://85445be2-ce73-4d4b-b2fa-7783799e2fea-bluemix:5131f90e44cf613dfb88dd6086df56f0d279387fa955a29b2a8ea3e949feae63@85445be2-ce73-4d4b-b2fa-7783799e2fea-bluemix.cloudant.com",
+    "database": "apic-demo",
+    "username": "85445be2-ce73-4d4b-b2fa-7783799e2fea-bluemix",
+    "password": "5131f90e44cf613dfb88dd6086df56f0d279387fa955a29b2a8ea3e949feae63",
+    "name": "cloudant-db",
+    "modelIndex": "",
+    "connector": "cloudant"
+  }
+}

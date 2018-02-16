@@ -1,0 +1,11 @@
+{
+  "ids": {
+    "Product": 3
+  },
+  "models": {
+    "Product": {
+      "1": "{\"name\":\"Mattie Valdez\",\"qty\":87.65002657,\"id\":1}",
+      "2": "{\"name\":\"Eliza Holmes\",\"qty\":67.40757288,\"id\":2}"
+    }
+  }
+}
